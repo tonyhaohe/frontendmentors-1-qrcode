@@ -10,15 +10,26 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    @font-face {
+      font-family: Outfit;
+      src: url(Outfit/Outfit-VariableFont_wght.ttf);
+    }
+
     html {
-      font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-      background-color: #D5E1EF;
+      font-family: Outfit, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      background-color: rgb(213, 225, 239);
+      font-size: 16px;
     }
     h1 {
-      color: rgb(1, 20, 62)
+      font-size: 22px;
+      line-height: 120%;
+      color: rgb(31, 49, 79);
     }
     p {
-      color: rgb(120, 119, 135)
+      font-size: 15px;
+      line-height: 140%;
+      letter-spacing: 0.2px;
+      color: rgb(104, 119, 141);
     }
     main {
       height:100vh;
@@ -26,9 +37,9 @@
       justify-content: center;
       align-items:center
     }
-    section {
-      width: 350px;
-      height: 400x;
+    article {
+      width: 320px;
+      height: 500px;
       box-sizing: border-box;
       align-items: center;
       text-align: center;
@@ -39,7 +50,7 @@
     }
     img {
       max-width: 100%;
-      border-radius: 20px;
+      border-radius: 10px;
     }
     div {
       padding:0rem 1rem 1rem;
